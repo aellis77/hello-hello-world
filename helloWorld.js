@@ -14,7 +14,7 @@
     GNU General Public License for more details.
 
     You should have received a copy of the GNU General Public License
-    along with this program in the extendedLicenceInfo.txt file in this
+    along with this program in this
     directory. If not, see <https://www.gnu.org/licenses/>.
 */
 //include Yue ? Might be able to do a window in node
