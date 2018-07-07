@@ -1,0 +1,69 @@
+ /* styles.css : css wrapper for helloWorld.js. Version 1.0 7/7/2018
+    For some reason this is considered the first program of choice.
+    Copyright (C) 2018  Amanda Ellis, wool_neu@gmail.com
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program in the extendedLicenceInfo.txt file in this
+    directory. If not, see <https://www.gnu.org/licenses/>.
+*/
+h1{
+  color : red;
+  position : relative; 
+  text-align : center;
+}
+
+h2,h3,h4,h6 {
+  text-align : center;
+  color : black;
+ }
+
+#instBody{
+  border : 5px dashed brown; 
+  height : auto;
+  width : auto;
+  background-color : purple;
+  margin : auto;
+/*  padding : 10px; */ 
+  justify-content: center;
+} 
+
+body{
+  height : 900px;
+  width : 70%;
+  background-color : white;
+  margin : auto;
+  padding : 50px; 
+  justify-content: center;
+} 
+
+#header{
+  box-align : center;
+  text-align : center;
+  border : 10px solid blue;
+  font-size : 40px;
+}
+
+#createdBy {
+  font-size : 18px;
+  margin : 20px;
+  box-align : center;
+  text-align : center; 
+  color : yellow;
+} 
+
+span{
+  box-align : center;
+  text-align : center;
+  color : red;
+}
+
