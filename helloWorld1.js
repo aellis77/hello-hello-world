@@ -1,4 +1,4 @@
- /* Program : helloWorld.js. Version 1.0 7/7/2018 
+ /* Program : helloWorld1.js. Version 1.0 7/7/2018 
     For some reason this is considered the first program 
     of choice.
     Copyright (C) 2018  Amanda Ellis, wool_neu@gmail.com
