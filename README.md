@@ -24,7 +24,7 @@ correct sequence, in my opinion.
 Instructions: 
 
   
-
+Way A:
 0. Fork this repo. 
   
   
@@ -44,7 +44,12 @@ Make sure the console screen is visable.
 May see the message box before the webpage has fully loaded, 
      
 but I'd say it's pretty good for a first program.
+  
+   
      
-     
+Way B:
+1. Copy the contents of helloWorld1.js file into a sandbox like jsFiddle or repl.it and run it. (Well, you
+will miss my wacky color scheme on the website, but maybe you don't care).
+
 Enjoy. If you're not going to delete it after using it, I would also copy the license file over.
 
