@@ -1,6 +1,7 @@
- /* Program : helloWorld1.js. Version 1.0 7/7/2018 
+ /* Program : helloWorld1.js. Version 2.0 7/12/2018 
     For some reason this is considered the first program 
     of choice.
+    Version 2.0 adds additional messages
     Copyright (C) 2018  Amanda Ellis, wool_neu@gmail.com
 
     This program is free software: you can redistribute it and/or modify
@@ -21,7 +22,7 @@
 // https://libyue.com/docs/latest/js/guides/getting_started.html
 // well, not in production, and more complex than I want to deal with
 //
-// Start with the console.log
+// First with the console.log
 console.log("Hello World!");
 console.log("-------------------------")
 console.log(" |   |   _   |   |   _   ");
@@ -29,7 +30,16 @@ console.log(" |---|  |_|  |   |  | |  ");
 console.log(" |   |  |_   |   |  |_|  ");
 console.log("-------------------------");
 
-// then move to the message box  (not an option in node - crashes the system)
-alert( "World ? \n Where are you world ? \n O, there you are ... \n \n Well, Hello World!");
+// then message boxes  (not an option in node - crashes the system)
+// technically should be window.alert, window.confirm
+let msg = confirm( "World ? \n Where are you World ? \n O, there you are ..." +
+" \n \n Well, Hello World! \n \n Press ok if you like the World. \n" +
+"Press cancel if you do not like the World.");
+
+if (msg) {
+    alert("Wonderful. It's great to like the World");
+} else {
+    alert("No, then you must live in the USA.");
+}
  
 

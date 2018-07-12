@@ -1,4 +1,5 @@
- /* styles1.css : css wrapper for helloWorld.js. Version 1.0 7/7/2018
+ /* styles1.css : css wrapper for helloWorld.js. Version 2.0 7/12/2018
+    For version 2.0 added code style
     For some reason this is considered the first program of choice.
     Copyright (C) 2018  Amanda Ellis, wool_neu@gmail.com
 
@@ -64,5 +65,9 @@ body{
 span{
   box-align : center;
   text-align : center;
+  color : red;
+}
+
+code {
   color : red;
 }
