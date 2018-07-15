@@ -14,9 +14,13 @@ Well, anyway. Node.js doesn't like message boxes, so I had to create a website t
 And since I have a website, why not use the developer's console too.
 
 So, this html,css,javascript combo, writes to the developer's console in 
-your favorite browser (sorry, I 
+your favorite browser if it happens to be Edge or Chrome 
+(sorry, I 
 could only test it in Windows Mac people), 
 and also does a message box confirm and then a message box alert. 
+Version 3 (current version) has an animation component. If you're on Microsoft Edge you will only
+see static rotation through svg, but in Chrome, you may see the static rotation first, but then,
+using some MDN experimental constructs, the text will move.
 
 
 
@@ -46,7 +50,7 @@ May see the message box before the webpage has fully loaded.
      
 Way B:
 1. Copy the contents of helloWorld1.js file into a sandbox like jsFiddle or repl.it and run it. (Well, you
-will miss my wacky color scheme on the website, but maybe you don't care).
+will miss my wacky color scheme on the website and the animation, but maybe you don't care).
 
 Enjoy. If you're not going to delete it after using it, I would also copy the license file over.
 
