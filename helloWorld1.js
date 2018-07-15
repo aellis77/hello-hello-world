@@ -1,7 +1,8 @@
- /* Program : helloWorld1.js. Version 2.0 7/12/2018 
+ /* Program : helloWorld1.js. Version 3.0 7/14/2018 
     For some reason this is considered the first program 
     of choice.
     Version 2.0 adds additional messages
+    Version 3.0 adds animation
     Copyright (C) 2018  Amanda Ellis, wool_neu@gmail.com
 
     This program is free software: you can redistribute it and/or modify
@@ -41,5 +42,41 @@ if (msg) {
 } else {
     alert("No, then you must live in the USA.");
 }
- 
+
+// and try some svg (mostly in an html file) for animation
+// I'm sticking to native svg (embedded in html) but there
+// are some javascript libraries. One of them, cvg.js, is
+//loadable in node.js, while another is snap.js.
+// So the svg mosted failed for animation but I did find this :
+//
+// the following is experimental technology from the MDN for animation
+// I don't believe it uses svg, but my strings are set up as svg and
+// will static show that (a rotation) before this occurs
+
+document.getElementById("drawing1").animate([
+    // keyframes
+    { transform: 'translateX(300px)' }, 
+    { transform: 'translateX(-300px)'},
+    { transform: 'translateZ(150px)'},
+    { transform: 'translateY(300px)'},
+    { transform: 'translateY(-300px)'},
+  ], { 
+    // timing options
+    duration: 20000,
+    iterations: Infinity
+  });
+  
+  document.getElementById("drawing").animate([
+    // keyframes
+    { transform: 'translateX(50px)' }, 
+    { transform: 'translateY(-50px)'},
+    { transform: 'translateX(-50px)'},
+    { transform: 'translateY(50px)'},
+    { transform: 'translateX(50px)'},
+  ], { 
+    // timing options
+    duration: 10000,
+    iterations: Infinity
+  });
+  
 

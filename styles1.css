@@ -1,5 +1,6 @@
- /* styles1.css : css wrapper for helloWorld.js. Version 2.0 7/12/2018
+ /* styles1.css : css wrapper for helloWorld.js. Version 3.0 7/14/2018
     For version 2.0 added code style
+    For version 3.0 added padding to id createdBy, added id drawing text
     For some reason this is considered the first program of choice.
     Copyright (C) 2018  Amanda Ellis, wool_neu@gmail.com
 
@@ -17,6 +18,7 @@
     along with this program in this
     directory. If not, see <https://www.gnu.org/licenses/>.
 */
+
 h1{
   color : red;
   position : relative; 
@@ -57,6 +59,7 @@ body{
 #createdBy {
   font-size : 18px;
   margin : 20px;
+  padding : 6em;
   box-align : center;
   text-align : center; 
   color : yellow;
@@ -71,3 +74,8 @@ span{
 code {
   color : red;
 }
+
+#drawing, #drawing1 {
+  font-size : 40px;
+}
+

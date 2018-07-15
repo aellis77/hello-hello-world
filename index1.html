@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<!-- index1.html : html wrapper for helloWorld1.js. Version 2.0 7/12/2018
+<!-- index1.html : html wrapper for helloWorld1.js. Version 3.0 7/14/2018
            version 2.0 - corrected for how the browser seems to load it,
            changed title name, added additional message functionality.
-           For some reason this is considered the first program of choice.
-           Copyright (C) 2018  Amanda Ellis, wool_neu@gmail.com -->
+           version 3.0 - added animation and changed some verbiage
+    For some reason this is considered the first program of choice.
+    Copyright (C) 2018  Amanda Ellis, wool_neu@gmail.com -->
 <html>
     <head>
         <title>Hello World variations by Amanda Ellis</title>
@@ -18,15 +19,51 @@
         <p> </p>
         <div><span id="createdBy">This enigma was crafted by: Amanda Ellis</span></div>
         <p> </p>
-        <h1> You'll need to go to the developer tools to see the second part </h1>
+        <h1> You'll need to inspect element or find the developers tools to see the last part </h1>
         <h2> And it ends with a console log ...</h2>
         <h3> Look There </h3>
+        <p></p>
         <h1> You have already seen the message boxes pop up on the screen </h1>
         <h3> Messages crash <code> node.js </code> and hence this html file </h3>
+        <p></p>
+        <h1> And why not some animation ...</h1>
+           <h3> if on Chrome  </h3>
+      
+        <!-- an example from the MDN to see if it can be done
+            <svg width="120" height="120"  viewBox="0 0 120 120"
+          xmlns="http://www.w3.org/2000/svg" version="1.1"
+          xmlns:xlink="http://www.w3.org/1999/xlink" >
+            <polygon points="60,30 90,90 30,90">
+            <animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="rotate"
+                          from="0 60 70"
+                          to="360 60 70"
+                          dur="10s"
+                          repeatCount="indefinite">
+                          </animateTransform>
+           </polygon>
+         </svg> -->
+
+        <svg height="200" width="400" length="400"
+          xmlns="http://www.w3.org/2000/svg" version="1.1"
+          xmlns:xlink="http://www.w3.org/1999/xlink"> 
+            <text id="drawing" x="80" y="30" z="100" fill="yellow" 
+              transform="rotate(30,20,40)">
+              Hello World!</text>
+            Sorry, your browser does not support inline SVG.
+        </svg>
+
+        <svg height="250" width="400" length="400">
+            <text id="drawing1" x="100" y="50" z="100" fill="red" transform="rotate(10,60,30)"> 
+                Hello World!</text>
+            Sorry, your browser does not support inline SVG.
+        </svg>
         <h4> Overkill on the theme ? </h4>
+
       </div>
-        <h6> Under the GPU GPL license, Copyright 2018, Amanda Ellis, wool.neu@gmail.com </h6>
-        <h6> This program is free software: you can redistribute it and/or modify
+      <h6> Under the GPU GPL license, Copyright 2018, Amanda Ellis, wool.neu@gmail.com </h6>
+      <h6> This program is free software: you can redistribute it and/or modify
              it under the terms of the GNU General Public License as published by
              the Free Software Foundation, either version 3 of the License, or
              (at your option) any later version.
@@ -35,6 +72,6 @@
              but WITHOUT ANY WARRANTY; without even the implied warranty of
              MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
              GNU General Public License for more details.
-       </h6>   
+      </h6>   
     </body>
 </html>
