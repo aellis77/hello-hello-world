@@ -14,7 +14,7 @@ Well, anyway. Node.js doesn't like message boxes, so I had to create a website t
 And since I have a website, why not use the developer's console too.
 
 So, this html,css,javascript combo, writes to the developer's console in 
-your favorite browser if it happens to be Edge or Chrome 
+your favorite browser especially if it happens to be Edge or Chrome 
 (sorry, I 
 could only test it in Windows Mac people), 
 and also does a message box confirm and then a message box alert. 
