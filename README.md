@@ -6,7 +6,8 @@ and hence this repo 'hello-hello-world'.
 
 
 Not so sure 'hello world' is right. 
-Does a literary masterpiece have export control ?
+Does a literary masterpiece have export control, since intellectual property (US and world) considers a
+computer/software program to be a 'literary work' ?
 
 
 
@@ -18,9 +19,12 @@ your favorite browser especially if it happens to be Edge or Chrome
 (sorry, I 
 could only test it in Windows Mac people), 
 and also does a message box confirm and then a message box alert. 
-Version 3 (current version) has an animation component. If you're on Microsoft Edge you will only
+Version 3 has an animation component. If you're on Microsoft Edge you will only
 see static rotation through svg, but in Chrome, you may see the static rotation first, but then,
 using some MDN experimental constructs, the text will move.
+Version 4 adds an ASCII version for those geeky people. If you put '&' in front of those #number sets
+and add them to a website you will see the letter/symbol.
+Here's a translation website for ASCII : https://tinyurl.com/yam3vbas
 
 
 

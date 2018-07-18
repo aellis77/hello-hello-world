@@ -3,8 +3,9 @@
            version 2.0 - corrected for how the browser seems to load it,
            changed title name, added additional message functionality.
            version 3.0 - added animation and changed some verbiage
+           version 4.0 - standardized to include !, and added ASCII translation
     For some reason this is considered the first program of choice.
-    Copyright (C) 2018  Amanda Ellis, wool_neu@gmail.com -->
+    Copyright (C) 2018  Amanda Ellis, wool_neu2@gmail.com -->
 <html>
     <head>
         <title>Hello World variations by Amanda Ellis</title>
@@ -14,20 +15,24 @@
     <body>
       <div id="instBody">
         <div id="header">
-            <span>Hello World</span>
+            <span>Hello World!</span>
         </div>
         <p> </p>
         <div><span id="createdBy">This enigma was crafted by: Amanda Ellis</span></div>
         <p> </p>
+        <h1> For those geeks, in ASCII : </h1>
+          <h3> #72 #101 #108 #108 #111 #173 #87
+            #111 #114 #108 #100 #33
+          </h3>
         <h1> You'll need to inspect element or find the developers tools to see the last part </h1>
-        <h2> And it ends with a console log ...</h2>
-        <h3> Look There </h3>
+          <h2> And it ends with a console log ...</h2>
+          <h3> Look There </h3>
         <p></p>
         <h1> You have already seen the message boxes pop up on the screen </h1>
-        <h3> Messages crash <code> node.js </code> and hence this html file </h3>
+          <h3> Messages crash <code> node.js </code> and hence this html file </h3>
         <p></p>
         <h1> And why not some animation ...</h1>
-           <h3> if on Chrome  </h3>
+          <h3> if on Chrome  </h3>
       
         <!-- an example from the MDN to see if it can be done
             <svg width="120" height="120"  viewBox="0 0 120 120"
@@ -44,7 +49,7 @@
                           </animateTransform>
            </polygon>
          </svg> -->
-
+        <!-- The javascript might make these more exciting than they look -->
         <svg height="200" width="400" length="400"
           xmlns="http://www.w3.org/2000/svg" version="1.1"
           xmlns:xlink="http://www.w3.org/1999/xlink"> 
@@ -55,10 +60,12 @@
         </svg>
 
         <svg height="250" width="400" length="400">
-            <text id="drawing1" x="100" y="50" z="100" fill="red" transform="rotate(10,60,30)"> 
-                Hello World!</text>
+            <text id="drawing1" x="100" y="50" z="100" fill="red" 
+              transform="rotate(10,60,30)"> 
+              Hello World!</text>
             Sorry, your browser does not support inline SVG.
         </svg>
+
         <h4> Overkill on the theme ? </h4>
 
       </div>
