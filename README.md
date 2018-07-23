@@ -25,10 +25,10 @@ using some MDN experimental constructs, the text will move.
 Version 4 adds an ASCII version for those geeky people. If you put '&' in front of those #number sets
 and add them to a website you will see the letter/symbol.
 Here's a translation key for ASCII : 
-HTML Code; Browser view  (don't really need the` ;)
+HTML Code; Browser view  (don't really need the ;) and &#96 is a backtick.
 
 `&copy;	©	        &#33;	!	&#95;	_	&#157;		&#219;	Û
-&reg;	®	        &#34;	"	&#96;	`	&#158;	?	&#220;	Ü
+&reg;	®	        &#34;	"	&#96;	`	`&#158;	?	&#220;	Ü
 &nbsp;		        &#35;	#	&#97;	a	&#159;	?	&#221;	İ
 &quot;	"	        &#36;	$	&#98;	b	&#160;		&#222;	Ş
 &amp;	&	        &#37;	%	&#99;	c	&#161;	¡	&#223;	ß
@@ -88,7 +88,7 @@ HTML Code; Browser view  (don't really need the` ;)
 &ucirc;	û	        &#91;	[	&#153;	?	&#215;	×		
 &yacute;	ı	&#92;	\	&#154;	?	&#216;	Ø		
 &thorn;	ş	        &#93;	]	&#155;	?	&#217;	Ù		
-&yuml;	ÿ	        &#94;	^	&#156;	?	&#218;	Ú		
+&yuml;	ÿ	        &#94;	^	&#156;	?	&#218;	Ú `		
 
 
 
